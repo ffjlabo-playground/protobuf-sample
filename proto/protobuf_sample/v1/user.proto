@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protobuf_sample.v1;
+
+option go_package = "github.com/ffjlabo-playground/protobuf-sample";
+
+message User {
+	string id = 1;
+}
